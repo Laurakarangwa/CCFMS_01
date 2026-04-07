@@ -43,7 +43,7 @@ The system enhances transparency, accountability, and responsiveness by digitizi
 The system is publicly accessible online via the following link:
 
 **🔗 Live Application:**  
-`https://ccfms-01.onrender.com/`
+https://ccfms-01.onrender.com/
 
 
 ## User Workflow
@@ -141,5 +141,5 @@ ccfms/
 
 
  
-**Project:** CCFMS 
-**Author:** Laura KARANGWA KWIZERA 
+*Project:* CCFMS 
+*Author:* Laura KARANGWA KWIZERA 
