@@ -137,12 +137,14 @@ ccfms/
 │
 ├── package.json         # Project configuration and dependencies
 └── README.md            # Project documentation
+ ```
 
 
-<img width="1903" height="912" alt="image" src="https://github.com/user-attachments/assets/89c69ff8-bfc5-4f6c-8e37-f5a43941bfaa" />
+![CCFMS Screenshot](https://github.com/user-attachments/assets/588528ae-41a1-4cf5-9e44-131812b42072)
+Fig: Screenshot of the Admin's Dashboard
 
 
 
+ **Project**: CCFMS 
  
-*Project:* CCFMS 
-*Author:* Laura KARANGWA KWIZERA 
+ **Author**:Laura KARANGWA KWIZERA 
