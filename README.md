@@ -1,41 +1,145 @@
-# Citizen Complaint and Feedback Management System (CCFMS)
+# Citizen Complaint and Feedback Management System (CCFMS) 
 
-This is the fully consolidated React Application for the CCFMS platform. It utilizes LocalStorage to provide a fully functioning frontend demonstration without requiring a backend database setup, making it very easy to evaluate the UI and workflows.
+The **Citizen Complaint and Feedback Management System (CCFMS)** is a web-based platform designed to improve communication between citizens and authorities. It provides a structured and accessible way for citizens to report issues in their communities, while enabling administrators and officers to manage and resolve those issues efficiently.
 
-## Features Included
-1. **Citizen Portal:** Lodge complaints securely and provide feedback on resolved issues.
-2. **Admin Dashboard:** Access all complaints and assign tasks to available Officers.
-3. **Officer Dashboard:** Handle assigned complaints and update status to "Resolved".
-4. **Mock Database System:** Everything works offline using browser LocalStorage for simplicity.
-
-## Step-by-Step Setup Instructions
-
-All dependencies are included in the local environment configuration. Follow these steps to review the project.
-
-### 1. Installation
-Open your terminal, navigate to the `ccfms/` directory and run:
-
-```bash
-npm install
-```
-
-### 2. Start the Application
-Once dependencies have been resolved, start the development server:
-
-```bash
-npm start
-```
-By default, this will launch the application locally at `http://localhost:3000`.
-
-### 3. Using the Test Accounts
-
-When you load the app, you will see a stylish login screen. The app is pre-seeded with multiple user accounts so you can test every workflow right away.
-
-1. **Citizen workflow:** Click on **Alice Citizen**. Lodge a new test complaint. After submitting, log out.
-2. **Admin workflow:** Click on **Bob Admin**. You will see the complaint Alice just submitted. Under "Assign Officer", select an available officer (e.g., Charlie). Log out.
-3. **Officer workflow:** Click on **Charlie Officer**. You will see the assigned issue. Click the "Mark as Resolved" button. Log out.
-4. **Citizen Feedback:** Log in as **Alice Citizen** again. You will now see a prompt to leave feedback on your resolved complaint!
+The system enhances transparency, accountability, and responsiveness by digitizing the complaint handling process.
 
 ---
 
-*All styling uses custom CSS with modern Glassmorphism aesthetics to ensure a vibrant and structured design without relying on bulky CSS libraries.*
+## Features
+
+### Citizen Portal
+- Sign up and create a personal account  
+- Log in securely  
+- Submit complaints related to community issues  
+- Track the status of submitted complaints  
+- Provide feedback after complaints are resolved  
+
+### Admin Dashboard
+- View all complaints submitted by citizens  
+- Categorize and manage complaints  
+- Assign complaints to officers  
+- Update complaint statuses  
+- Create officer accounts  
+
+### Officer Dashboard
+- View complaints assigned by the admin  
+- Update complaint status (e.g., *In Progress*, *Resolved*)  
+- Add notes for tracking and accountability  
+
+---
+
+## System Requirements
+
+- A modern web browser (Google Chrome, Microsoft Edge, or Firefox)  
+- Optional (for local setup):
+  - Node.js (version 18 or later)  
+  - npm (Node Package Manager)  
+
+---
+
+## Deployment & Access
+
+The system is publicly accessible online via the following link:
+
+**🔗 Live Application:**  
+`https://ccfms-01.onrender.com/`
+
+
+## User Workflow
+
+The system supports three main user roles: **Citizen**, **Admin**, and **Officer**. Each role interacts with the system differently, as outlined below.
+
+### Citizen
+
+A citizen interacts with the system independently by:
+
+- Creating an account through the **Sign Up** option  
+- Logging into the system using their credentials  
+- Submitting complaints through the complaint submission form  
+- Tracking the progress of submitted complaints  
+- Providing feedback once a complaint has been resolved  
+
+---
+
+### Admin
+
+The administrator is responsible for managing the overall system by:
+
+- Logging into the admin dashboard  
+- Viewing all complaints submitted by citizens  
+- Categorizing complaints based on relevance or urgency  
+- Assigning complaints to available officers  
+- Updating the status of complaints  
+- Creating accounts for officers  
+
+---
+
+### Officer
+
+Officers are responsible for handling assigned complaints by:
+
+- Logging into the system using credentials provided by the admin  
+- Viewing complaints assigned to them  
+- Updating the status of complaints (e.g., *In Progress*, *Resolved*)  
+- Adding notes where necessary for tracking and accountability  
+
+---
+
+## Testing the System
+
+To effectively evaluate the system, the following steps can be followed:
+
+### Citizen Perspective
+
+- Register a new account and log in  
+- Submit a complaint  
+- Confirm that the complaint appears in the admin dashboard  
+
+---
+
+### Admin Perspective
+
+- Assign the submitted complaint to an officer  
+- Verify that the complaint is successfully assigned  
+
+---
+
+### Officer Perspective
+
+- Log in and update the complaint status  
+- Confirm that updates are reflected on the citizen’s dashboard  
+
+---
+
+### Feedback Process
+
+- After the complaint is resolved, log in as a citizen  
+- Submit feedback  
+- Verify that the feedback is recorded in the system  
+
+---
+
+## Project Structure
+
+The project follows a structured and modular organization:
+
+```bash
+ccfms/
+│
+├── public/              # Static assets (HTML, images)
+├── src/
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Application pages for each user role
+│   ├── utils/           # Utility and helper functions
+│   ├── App.js           # Root component
+│   └── index.js         # Application entry point
+│
+├── package.json         # Project configuration and dependencies
+└── README.md            # Project documentation
+
+
+
+ 
+**Project:** CCFMS 
+**Author:** Laura KARANGWA KWIZERA 
